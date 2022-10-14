@@ -1,0 +1,18 @@
+version: '3.8'
+
+services:
+  php:
+    image: php8
+    restart: always
+    ports:
+      - 9000:9000
+  
+  web:
+    image: apache2
+    depends_on:
+      - php
+    restart: always
+    volumes:
+      - "C:/Utilisateurs/Marie/website/glpi:/var/www/localhost/htdocs"
+    ports:
+      - 8080:80
