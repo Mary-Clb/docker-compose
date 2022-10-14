@@ -2,15 +2,13 @@ version: '3.8'
 
 services:
   php:
-    image: php8
+    build: "../php"
     restart: always
     ports:
-      - 9000:9000
+      - 9000:90
   
   web:
-    image: apache2
-    depends_on:
-      - php
+    build: "../apache2"
     restart: always
     volumes:
       - "C:/Utilisateurs/Marie/website/glpi:/var/www/localhost/htdocs"
