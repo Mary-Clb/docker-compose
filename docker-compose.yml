@@ -5,17 +5,17 @@ services:
     image: nginx:alpine
     restart: always
     volumes:
-      - .:/var/www
+      - ./glpi:/var/www
       - ./nginx/nginx.conf:/etc/nginx/nginx.conf
     depends_on:
-      - phpfpm
+      - php-fpm
     ports:
       - 8080:80
 
-  phpfpm:
+  php-fpm:
     build: ./php
     restart: always
     volumes:
-      - ./:/var/www
+      - ./glpi:/var/www
     ports:
       - 9090:9000
