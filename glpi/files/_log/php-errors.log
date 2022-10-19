@@ -204,3 +204,64 @@
 [2022-10-18 08:42:38] glpiphplog.WARNING: Test logger  
 [2022-10-18 09:41:35] glpiphplog.WARNING: Test logger  
 [2022-10-18 09:57:49] glpiphplog.WARNING: Test logger  
+[2022-10-18 10:59:00] glpiphplog.WARNING: Test logger  
+[2022-10-18 11:58:22] glpiphplog.WARNING: Test logger  
+[2022-10-18 12:26:13] glpiphplog.CRITICAL:   *** Uncaught Exception mysqli_sql_exception: No such file or directory in /var/www/install/install.php at line 271
+  Backtrace :
+  install/install.php:271                            mysqli->__construct()
+  install/install.php:602                            step4()
+  
+[2022-10-18 13:03:09] glpiphplog.WARNING: Test logger  
+[2022-10-18 13:03:31] glpiphplog.CRITICAL:   *** Uncaught Exception mysqli_sql_exception: No such file or directory in /var/www/install/install.php at line 271
+  Backtrace :
+  install/install.php:271                            mysqli->__construct()
+  install/install.php:602                            step4()
+  
+[2022-10-18 13:04:25] glpiphplog.WARNING: Test logger  
+[2022-10-18 13:04:44] glpiphplog.CRITICAL:   *** Uncaught Exception mysqli_sql_exception: No such file or directory in /var/www/install/install.php at line 271
+  Backtrace :
+  install/install.php:271                            mysqli->__construct()
+  install/install.php:602                            step4()
+  
+[2022-10-18 13:54:57] glpiphplog.WARNING: Test logger  
+[2022-10-18 13:55:24] glpiphplog.CRITICAL:   *** Uncaught Exception mysqli_sql_exception: No such file or directory in /var/www/install/install.php at line 271
+  Backtrace :
+  install/install.php:271                            mysqli->__construct()
+  install/install.php:602                            step4()
+  
+[2022-10-18 13:58:21] glpiphplog.CRITICAL:   *** Uncaught Exception mysqli_sql_exception: No such file or directory in /var/www/install/install.php at line 271
+  Backtrace :
+  install/install.php:271                            mysqli->__construct()
+  install/install.php:602                            step4()
+  
+[2022-10-18 14:27:34] glpiphplog.CRITICAL:   *** Uncaught Exception mysqli_sql_exception: No such file or directory in /var/www/install/install.php at line 271
+  Backtrace :
+  install/install.php:271                            mysqli->__construct()
+  install/install.php:602                            step4()
+  
+[2022-10-18 14:27:52] glpiphplog.WARNING: Test logger  
+[2022-10-18 14:28:30] glpiphplog.CRITICAL:   *** Uncaught Exception mysqli_sql_exception: No such file or directory in /var/www/install/install.php at line 271
+  Backtrace :
+  install/install.php:271                            mysqli->__construct()
+  install/install.php:602                            step4()
+  
+[2022-10-18 14:55:29] glpiphplog.WARNING: Test logger  
+[2022-10-18 14:57:07] glpiphplog.CRITICAL:   *** Uncaught Exception mysqli_sql_exception: No such file or directory in /var/www/install/install.php at line 271
+  Backtrace :
+  install/install.php:271                            mysqli->__construct()
+  install/install.php:602                            step4()
+  
+[2022-10-19 07:11:47] glpiphplog.WARNING: Test logger  
+[2022-10-19 07:13:24] glpiphplog.CRITICAL:   *** Uncaught Exception mysqli_sql_exception: No such file or directory in /var/www/install/install.php at line 271
+  Backtrace :
+  install/install.php:271                            mysqli->__construct()
+  install/install.php:602                            step4()
+  
+[2022-10-19 07:16:38] glpiphplog.WARNING: Test logger  
+[2022-10-19 07:16:57] glpiphplog.WARNING: Test logger  
+[2022-10-19 07:17:26] glpiphplog.WARNING: Test logger  
+[2022-10-19 07:17:26] glpiphplog.WARNING: Test logger  
+[2022-10-19 07:19:18] glpiphplog.WARNING: Test logger  
+[2022-10-19 07:19:19] glpiphplog.WARNING: Test logger  
+[2022-10-19 07:20:10] glpiphplog.WARNING: Test logger  
+[2022-10-19 07:20:10] glpiphplog.WARNING: Test logger  
